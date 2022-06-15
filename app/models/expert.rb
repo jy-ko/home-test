@@ -1,3 +1,3 @@
 class Expert < ApplicationRecord
-    has_one :user, as: :authenticable
+    has_many :users, as: :profilable
 end
